@@ -1,0 +1,77 @@
+/* Global styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to bottom, #0b132b, #1c2541);
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+.page-header {
+  text-align: center;
+  padding: 2rem;
+}
+.page-header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-style: italic;
+  color: #a9c6ff;
+}
+/* Table */
+#planets {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  color: #222;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#planets caption {
+  caption-side: top;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #3a86ff;
+  color: #fff;
+}
+/* Headers */
+#planets th {
+  background-color: #1c2541;
+  color: #fff;
+  padding: 1rem;
+  font-weight: bold;
+}
+/* Row titles */
+.row-title {
+  font-weight: bold;
+  background-color: #e0e0e0;
+  text-align: left;
+}
+/* Table cells */
+#planets td {
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+/* Images */
+.image-row img {
+  width: 80px;
+  transition: transform 0.3s ease;
+}
+.image-row img:hover {
+  transform: scale(1.2);
+}
+/* Zebra striping */
+#planets tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+/* Footer */
+.page-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
